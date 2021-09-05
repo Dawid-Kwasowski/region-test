@@ -1,0 +1,16 @@
+.table-region {
+   margin: 10px;
+   padding: 5px;
+}
+
+.table-region__name {
+   text-transform: uppercase;
+   color: gray;
+   font-size: 12px;
+}
+
+.table-region__label {
+   display: flex;
+   flex-direction: column;
+   padding: 0 10px;
+}

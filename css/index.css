@@ -1,0 +1,9 @@
+/* colors */
+:root {
+   --dark-green: hsl(86, 72%, 57%);
+}
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
