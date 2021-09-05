@@ -1,17 +1,29 @@
 .region-item {
    width: 100%;
-   height: 40px;
+   height: 50px;
    background-color: gainsboro;
    border-radius: 10px;
    display: flex;
    align-items: center;
    justify-content: space-between;
-   flex-direction: row-reverse;
-   padding: 0 10px;
+   padding: 15px 10px;
    margin: 5px 0;
+   color: gray;
+   font-weight: 700;
+   font-size: 18px;
+}
+   
+.region-item__content {
+   width: 100%;
 }
 
 .region-item--checked {
    background-color: greenyellow;
    color: white;
+}
+
+.region-item__radio-btn {
+   width: 0;
+   height: 0;
+   opacity: 0;
 }

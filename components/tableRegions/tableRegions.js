@@ -22,9 +22,28 @@ tableRegions.$tpl = options => {
 }
 
 setTimeout(() => {
-   tableRegions.$table = $('.modal-body').find(`#TIR1`).append(
+   tableRegions.$table = $('.table-region').find(`#TIR1`).append(
       tableRegionItem.render({
-         region: ""
+         region: "Łódź",
+         selected: true
       })
-   )  
+   )
+   tableRegions.$table = $('.table-region').find(`#TIR1`).append(
+      tableRegionItem.render({
+         region: "Kujawy",
+         selected: false
+      })
+   )
+   tableRegions.$table = $('.table-region').find(`#TIR2`).append(
+      tableRegionItem.render({
+         region: "Warszawa",
+         selected: false
+      })
+   )
+   tableRegions.$table = $('.table-region').find(`#TIR2`).append(
+      tableRegionItem.render({
+         region: "Nowy Dwór Mazowiecki",
+         selected: true
+      })
+   )
 },1000)
